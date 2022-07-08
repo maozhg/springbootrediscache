@@ -1,0 +1,18 @@
+server:
+  port: 9000
+spring:
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    password: #默认是不需要的
+    jedis:
+      pool:
+        max-active: 8
+    timeout: 5000
+    ttlseconds: 3000
+
+
+#logging:
+#  level:
+#    root: debug
